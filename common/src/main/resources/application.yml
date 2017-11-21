@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: system-common
+  cloud:
+    stream:
+      bindings:
+        orderChannel:
+          group: order
+          destination: orderExchange
+server:
+  port: 8081
+eureka:
+  instance:
+    hostname: system-common
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://peer1:admin@peer1:8761/eureka/,http://peer2:admin@peer2:8762/eureka/

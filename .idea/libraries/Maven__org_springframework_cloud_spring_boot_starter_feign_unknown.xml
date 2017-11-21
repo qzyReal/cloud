@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-boot-starter-feign:unknown">
+    <CLASSES>
+      <root url="jar://D:/Program Files (x86)/repo/org/springframework/cloud/spring-boot-starter-feign/unknown/spring-boot-starter-feign-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Program Files (x86)/repo/org/springframework/cloud/spring-boot-starter-feign/unknown/spring-boot-starter-feign-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Program Files (x86)/repo/org/springframework/cloud/spring-boot-starter-feign/unknown/spring-boot-starter-feign-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

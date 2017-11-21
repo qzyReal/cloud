@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: system-permission
+  cloud:
+    stream:
+      bindings:
+        orderChannel:
+          destination: orderExchange
+server:
+  port: 9000
+  #context-path: /permission
+eureka:
+  instance:
+    hostname: system-permission
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://peer1:admin@localhost:8761/eureka/,http://peer2:admin@localhost:8762/eureka/

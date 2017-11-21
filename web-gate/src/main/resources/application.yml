@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: system-zuul
+server:
+  port: 8000
+eureka:
+  instance:
+    hostname: system-zuul
+    prefer-ip-address: true
+  client:
+    service-url:
+     defaultZone: http://peer1:admin@peer1:8761/eureka/,http://peer2:admin@peer2:8762/eureka/
+zuul:
+  #ignored-patterns: /**/users/** #ºöÂÔÄ³Ğ©url
+  routes:
+    permission:
+      path: /permission/**
+      serviceId: system-permission
